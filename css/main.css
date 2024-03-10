@@ -1,0 +1,237 @@
+.container {
+    max-width: 1200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-nav {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+nav ul a {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+    color: #192628;
+}
+
+nav ul li {
+    padding: 10px;
+    
+}
+
+nav ul a:active {
+    color: #FA4A0c;
+}
+
+nav ul a:hover {
+    color: #FA4A0c;
+}
+
+nav ul a:current {
+    color: #FA4A0c;
+}
+
+.welcome-image {
+    display: none;
+}
+
+.welcome-header {
+    text-align: center;
+    background-color: #fafafa;
+    padding-bottom: 500px ;
+}
+
+.welcome-food {
+    color: #737373;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    color: #252b42;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.welcome-paragraph {
+    color: #737373;
+    font-size: 2em;
+    font-weight: 300;
+    padding: 30px 30px 60px 30px;
+    line-height: 40px;
+}
+
+.welcome-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-btn1 {
+    font-weight: 550;
+    text-decoration: none;
+    background-color: #FA4A0c;
+    color: white ;
+    font-size: 1.4em;
+    border-radius: 20px;
+    border: 2px solid #FA4A0c;
+    padding: 10px 40px 10px 40px;  
+}
+
+.header-btn2 {
+    font-weight: 550;
+    text-decoration: none;
+    background-color: #fafafa;
+    color: #FA4A0c ;
+    font-size: 1.4em;
+    border-radius: 20px; 
+    border: 2px solid #FA4A0c;
+    padding: 10px 36px 10px 36px; 
+}
+
+.btn1-space {
+    padding-bottom: 50px;
+}
+
+.header-btn1:hover {
+    color: #FA4A0c;
+    background-color: white;
+}
+
+.header-btn2:hover {
+    color: white;
+    background-color: #FA4A0c;
+}
+
+.two-mobile {
+    
+    margin-top: -450px;
+    margin-left: -100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.how-app {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 50px 50px 50px;
+    color: #FA4A0c;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #192628;
+}
+
+section p {
+    font-size: 1.5em;
+    color: #737373;
+    line-height: 30px;
+    margin: 60px 130px 0 130px;
+}
+
+section img {
+    margin-left: 45px;
+    margin-top: -50px;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+.bottom-banner , .download-p2 {
+    display: none;
+}
+
+.downloading-section {
+    background-color: #252b42;
+}
+
+.downloading-section h3 {
+    color: #fafafa;
+    font-size: 3em;
+    font-weight: 500;
+    padding: 60px 10px 0 10px ;
+    line-height: 60px;
+}
+
+.downloading-section p {
+    color: #bdbdbd;
+    margin: 0 100px 100px 100px;
+    line-height: 40px;
+}
+
+.footer-logo {
+    display: none;
+}
+
+.download-button a {
+    list-style: none;
+}
+
+.playstore-btn {
+    font-weight: 550;
+    text-decoration: none;
+    background-color: #FA4A0c;
+    color: white ;
+    font-size: 1.4em;
+    border-radius: 7px;
+    border: 2px solid #FA4A0c;
+    padding: 10px 40px 10px 40px;  
+}
+
+.appstore-btn {
+    font-weight: 550;
+    text-decoration: none;
+    color: white ;
+    font-size: 1.4em;
+    border-radius: 7px; 
+    border: 2px solid white;
+    padding: 10px 36px 10px 36px; 
+}
+
+.download-button {
+    padding-bottom: 100px;
+}
+
+.appstore-btn:hover {
+    color: #FA4A0c;
+    border-color: #FA4A0c;
+}
+
+.playstore-btn:hover {
+    color: #FA4A0c;
+    background-color: white;
+}
+
+.social-icons a {
+    padding: 15px;
+}
+
+.site-footer {
+    margin: 60px;
+}
+
+.copyright {
+    padding: 20px;
+    font-size: 1.3em;
+}
