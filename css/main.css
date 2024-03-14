@@ -53,16 +53,17 @@ nav ul li {
 
 }
 
-nav ul a:active {
-    color: #FA4A0c;
-}
 
 nav ul a:hover {
     color: #FA4A0c;
 }
 
-nav ul a:current {
+nav ul li a[aria-current="page"] {
     color: #FA4A0c;
+}
+
+nav ul li a:active {
+    color: blue;
 }
 
 .welcome-header,
