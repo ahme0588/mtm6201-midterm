@@ -1,32 +1,36 @@
+/* Giving the site a new font, setting margin and aligning all the text to center */
 html {
-
     font-family: "montserrat", sans-serif;
     margin: 0 auto;
     text-align: center;
 
 }
 
+/* Making sure all images are set to a 100% width */
 img {
     max-width: 100%;
 }
 
+/* navigation styling for mobile version */
 .main-nav {
     text-align: center;
     padding-bottom: 5px;
 
 }
 
+/*  Giving the header a background color to not make it look empty */
 header {
     background-color: #F2D2BD;
 }
 
-
+/*  styling the skiplinks */
 .skip-links {
     list-style: none;
     margin: 0;
     padding: 0 0 0 10px;
 }
 
+/* Making sure skip links are not visible */
 .skip-links a {
     position: absolute;
     top: -3em;
@@ -37,10 +41,12 @@ header {
     font-weight: bold;
 }
 
+/* Making skip links visible when pressed tab */
 .skip-links a:focus {
     top: 0;
 }
 
+/* Styling the navigation */
 nav ul a {
     font-size: 1.2em;
     font-weight: 400;
@@ -53,19 +59,22 @@ nav ul li {
 
 }
 
-
+/* Giving the navigation a hover color */
 nav ul a:hover {
     color: #FA4A0c;
 }
 
+/* Making the current page stay orange */
 nav ul li a[aria-current="page"] {
     color: #FA4A0c;
 }
 
+/* Making it so if clicked, the navigation button will appear blue */
 nav ul li a:active {
     color: blue;
 }
 
+/* Styling the header and making a fade in animation from the bottom */
 .welcome-header,
 .about-header,
 .contact-header {
@@ -88,7 +97,7 @@ nav ul li a:active {
     }
 }
 
-
+/* styling welcome food */
 .welcome-food {
     color: #737373;
     font-size: 1.2em;
@@ -96,6 +105,7 @@ nav ul li a:active {
     padding-top: 50px;
 }
 
+/* Styling the h1 of the site */
 h1 {
     font-size: 2.5em;
     font-weight: 600;
@@ -104,6 +114,7 @@ h1 {
     margin-top: 20px;
 }
 
+/* Styling the welcome paragraph */
 .welcome-paragraph {
     color: #737373;
     font-size: 1.7em;
@@ -112,12 +123,14 @@ h1 {
     line-height: 40px;
 }
 
+/* Giving the buttons a flex and aligning them to the center */
 .welcome-btns {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Styling the buttond */
 .header-btn1 {
     font-weight: 550;
     text-decoration: none;
@@ -140,10 +153,12 @@ h1 {
     padding: 10px 36px 10px 36px;
 }
 
+/* Adding space between the buttons */
 .btn1-space {
     padding-bottom: 50px;
 }
 
+/* Giving the buttons a hover animation and back to normal */
 .header-btn1:hover {
     color: #FA4A0c;
     background-color: white;
@@ -154,6 +169,7 @@ h1 {
     transition: .5s;
 }
 
+/* Giving the buttons a hover animation and back to normal */
 .header-btn2:hover {
     color: white;
     background-color: #FA4A0c;
@@ -164,10 +180,12 @@ h1 {
     transition: .5s;
 }
 
+/* styling the two-mobile image so that it stays on the banner */
+/* Giving the image a bounce animation, infinite animation */
 .two-mobile {
-    margin-top: -100px;
-    margin-left: -100px;
-    margin-bottom: 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
     animation-name: mobile-bounce;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.46, .13, .62, .9);
@@ -191,11 +209,13 @@ h1 {
     }
 }
 
+/* Styling a heading */
 .how-app {
     font-size: 1.5em;
     font-weight: 600;
 }
 
+/* Styling all h3s on the site */
 h3 {
     font-size: 1.5em;
     font-weight: 700;
@@ -203,6 +223,7 @@ h3 {
     color: #FA4A0c;
 }
 
+/* Styling h2s on the site */
 h2 {
     font-size: 2.5em;
     margin: 20px;
@@ -211,6 +232,7 @@ h2 {
     color: #192628;
 }
 
+/* Styling the 3 paragraphs in each section */
 .section-one p,
 .section-two p,
 .section-three p {
@@ -220,27 +242,36 @@ h2 {
     margin: 30px;
 }
 
+/* Making sure the images are centered and their position is relative */
 .section-one-image,
-.section-two-image,
-.section-three-image {
+.section-two-image {
     position: relative;
-    margin-left: 70px;
-    margin-top: -50px;
+    margin-left: 40px;
 }
 
+/* Making the image centered and position relative */
+.section-three-image {
+    position: relative;
+    margin-left: 30px;
+}
+
+/* Styling the hr and giving it margins */
 hr {
     margin: 50px 0 50px 0;
 }
 
+/* Making sure the banner is not displayed on mobile version and a paragraph */
 .bottom-banner,
 .download-p2 {
     display: none;
 }
 
+/* giving download section a background color */
 .downloading-section {
     background-color: #252b42;
 }
 
+/* styling the heading in downloading section */
 .downloading-section h3 {
     color: #fafafa;
     font-size: 2.5em;
@@ -249,20 +280,24 @@ hr {
     line-height: 60px;
 }
 
+/* styling the paragraph in download section */
 .downloading-section p {
     color: #bdbdbd;
     margin: 0 40px 40px 40px;
     line-height: 40px;
 }
 
+/* Making sure the footer logo does not display in mobile styles */
 .footer-logo {
     display: none;
 }
 
+/* Removing the list from button in download section */
 .download-button a {
     list-style: none;
 }
 
+/* Adding 2 new buttons with same colors but different stylings */
 .playstore-btn {
     font-weight: 550;
     text-decoration: none;
@@ -285,10 +320,12 @@ hr {
     padding: 10px 36px 10px 36px;
 }
 
+/* Giving the buttons a padding so the background color goes a lot more to the bottom */
 .download-button {
     padding-bottom: 100px;
 }
 
+/* Giving the buttons a hover animation */
 .appstore-btn:hover {
     color: #FA4A0c;
     border-color: #FA4A0c;
@@ -310,36 +347,42 @@ hr {
     transition: .5s;
 }
 
-
+/* Adjusting the social icons */
 .social-icons a {
-    padding: 15px;
+    margin: 15px;
 }
 
+/* Giving some space to the site footer */
 .site-footer {
     margin: 60px;
 }
 
+/* styling the copyright paragraph */
 .copyright {
     padding: 20px;
     font-size: 1.3em;
 }
 
+/* Styling about pages heading */
 .page-h2,
 .about-set-h2 {
     font-size: 2em;
     font-weight: 500;
 }
 
+/* Styling the h2 for about page */
 .about-set-h2 {
     padding-bottom: 20px;
 }
 
+/* Giving the sections a background color to match with the previous page */
 .about-intro,
 .our-story,
 .about-join {
     background-color: #252b42;
 }
 
+/* adjusting the paragraphs in the section */
 .intro-grid p,
 .about-join p,
 .contact-info p {
@@ -350,6 +393,7 @@ hr {
     margin: 15px 15px 40px 15px;
 }
 
+/* Adjusting the padding for h3s */
 .intro-grid h3 {
     padding-top: 30px;
 }
@@ -358,12 +402,14 @@ hr {
     padding: 20px;
 }
 
+/* Adjusting the delivery images background color so it stays visible even when responsive */
 .delivery-img {
     margin-top: 20px;
     padding: 20px;
     background-color: #FA4A0c;
 }
 
+/* Styling the cards */
 .card {
     border-radius: 12px;
     margin: 20px;
@@ -372,6 +418,7 @@ hr {
 
 }
 
+/* Styling cards headings */
 .cards h3 {
     color: #252b42;
     font-weight: 600;
@@ -379,6 +426,7 @@ hr {
     padding-top: 35px;
 }
 
+/* styling cards paragraphs */
 .cards p {
     font-size: 1.1em;
     line-height: 25px;
@@ -393,17 +441,20 @@ hr {
     padding-bottom: 50px;
 }
 
+/* Styling contact information and giving it a background color */
 .contact-info {
     background-color: #252b42;
     padding: 30px 0 20px 0;
     margin: 20px;
 }
 
+/* refreshing contact paragraphs margins and paddings */
 .contact-p {
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+/* giving the social links section a background color and styling its contencts */
 .social-link {
     background-color: #252b42;
     color: white;
@@ -412,12 +463,14 @@ hr {
     margin: 20px;
 }
 
+/* Styling paragrpah for social link */
 .social-link p {
     padding-bottom: 25px;
     font-size: .9em;
     line-height: 25px;
 }
 
+/* Styling the links inside the section */
 .social-link ul li a {
     color: #FA4A0c;
 }
@@ -434,6 +487,7 @@ hr {
     font-size: 3em;
 }
 
+/* Making the forms width 100% */
 #fullname,
 #youremail,
 #message {
@@ -442,16 +496,18 @@ hr {
     font-size: 1.2em;
 }
 
+/* Making more space for the message section */
 #message {
     height: 6em;
 }
 
-
+/* Giving the map a margin */
 .min-margin,
 .location {
     margin: 1em 0em .5em 0em;
 }
 
+/*  for this specific section. make sure the text is aligned to the left side of the page */
 .contact-us {
     text-align: left;
     background-color: seashell;
@@ -460,6 +516,7 @@ hr {
     margin: 20px;
 }
 
+/* styling the send button and giving it a similar animation like the other buttons */
 .contact-btn {
     margin: 20px;
 }
@@ -472,23 +529,21 @@ hr {
     max-width: 100%;
 }
 
+/* Giving the map a width of 100% */
 iframe {
     max-width: 100%;
 }
 
+/* Styling the back to top link */
 .back-to-top {
     font-size: .6em;
     color: #FA4A0c;
 }
 
-
-nav ul li:current {
-    color: #FA4A0c;
-
-}
-
+/* giving these 3 sections a fade in translate animation */
 .intro-grid,
-.page-h2, .contact-social{
+.page-h2,
+.contact-social {
     opacity: 0;
     animation-name: intro-grid;
     animation-duration: 1.5s;
@@ -508,6 +563,7 @@ nav ul li:current {
     }
 }
 
+/* Giving all the cards in the about section an animation . there is a delay on the animation since we cannot use javascript to appply to it. there is a 2 second delay and a further .2 additinoal delay on the adjacent card */
 .card1 {
     opacity: 0;
     animation-name: card1;
@@ -601,14 +657,17 @@ nav ul li:current {
 
 @media screen and (min-width:760px) {
     html {
+        /* increasing the font size for the whole html */
         font-size: 1.2em;
     }
 
+    /* switching the header background to white to match the figma file */
     header {
         background-color: white;
 
     }
 
+    /* Styling the navigation. making it flex to appear in one line. This div includes the logo with the navigation. the logo was seperate then the navigation */
     .nav-list {
         display: flex;
         justify-content: flex-end;
@@ -617,6 +676,7 @@ nav ul li:current {
 
     }
 
+    /* making the navigation display in a flex to appear in a line. */
     .nav {
         display: flex;
         justify-content: space-between;
@@ -625,7 +685,7 @@ nav ul li:current {
         margin: 0 auto;
     }
 
-
+    /* Adjusting the padding and font */
     nav ul li {
         padding-left: 100px;
         font: 1em;
@@ -635,6 +695,7 @@ nav ul li:current {
         font-size: .8em;
     }
 
+    /* Adding a background image to the header and making the width a 100% */
     .welcome-header {
         background-image: url(../images/Rectangle48.png);
         background-repeat: no-repeat;
@@ -642,6 +703,7 @@ nav ul li:current {
         max-width: 100%;
     }
 
+    /* Styling the h1 of the site and header of the website */
     h1 {
         font-size: 3em;
         color: white;
@@ -661,12 +723,14 @@ nav ul li:current {
         color: white;
     }
 
+    /* CHanging colors for the buttons since it doesnt have good contrast with the banner */
     .header-btn2 {
         color: white;
         border-color: white;
         background-color: transparent;
     }
 
+    /* Displaying them in flex but now in a row */
     .welcome-btns {
         flex-direction: row;
         justify-content: center;
@@ -682,6 +746,12 @@ nav ul li:current {
         margin-left: 10px;
     }
 
+    /* resizing the width of the two mobile image */
+    .two-mobile {
+        width: 50%;
+    }
+
+    /* GIving the website a max width of 1200px. this only containers the main contant */
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -689,10 +759,10 @@ nav ul li:current {
 
     hr {
         color: #737373;
-        height: 2px;
-        opacity: 10%;
+        opacity: 100%;
     }
 
+    /* Displaying the sections in flex */
     .section-one,
     .section-two,
     .section-three {
@@ -700,6 +770,7 @@ nav ul li:current {
         align-items: center;
     }
 
+    /* Aligning items left in the desktop version */
     .section-one h3,
     .section-two h3,
     .section-three h3 {
@@ -718,6 +789,11 @@ nav ul li:current {
         margin: 0 60px 0 50px;
     }
 
+    .section-two {
+        margin-left: 75px;
+    }
+
+    /*  adjusting margins paddings and font sizes */
     .section-one p,
     .section-two p,
     .section-three p {
@@ -726,11 +802,20 @@ nav ul li:current {
         margin: 30px 200px 0 50px;
     }
 
+    /* reordering 2 of the sections to match the prototype */
     .section-one-image,
     .section-three-image {
         order: -1;
     }
 
+    .section-one-image,
+    .section-two-image,
+    .section-three-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* Styling the downloading section for main page */
     .download-p2 {
         display: block;
         color: white;
@@ -750,6 +835,7 @@ nav ul li:current {
         color: white;
     }
 
+    /* Giving the downloading section a background image */
     .downloading-section {
         background-image: url(../images/Rectangle47.png);
         background-repeat: no-repeat;
@@ -757,13 +843,14 @@ nav ul li:current {
 
     }
 
+    /* Similarly styling the buttons */
     .download-button a {
         margin: 10px;
         font-size: 1.1em;
         font-weight: 600;
     }
 
-
+    /* Adding a background image to the about pages heading */
     .about-background {
         background-image: url(../images/about-us-banner.png);
         background-repeat: no-repeat;
@@ -771,6 +858,7 @@ nav ul li:current {
         padding: 200px;
     }
 
+    /* Styling the about page and making the section contents align left */
     .about-intro,
     .our-story {
         text-align: left;
@@ -782,6 +870,7 @@ nav ul li:current {
         font-size: .8em;
     }
 
+    /* MAking sure the cards take up equal space and styling them */
     .cards p {
         align-items: baseline;
         font-size: .8em;
@@ -804,6 +893,7 @@ nav ul li:current {
         margin: 0;
     }
 
+    /* Giving some space below the cards */
     .cards {
         padding-bottom: 30px;
     }
@@ -812,7 +902,7 @@ nav ul li:current {
         padding: 50px 200px 50px 200px;
     }
 
-
+    /* Displaying the contact section as grid to style them accordingly */
     .intro-grid {
         display: grid;
         max-width: 1200px;
@@ -826,29 +916,33 @@ nav ul li:current {
 
     }
 
+    /* Giving the section values for grid template areas */
     .about-intro {
         grid-area: one;
     }
 
     .our-story {
         grid-area: two;
-    } 
+    }
 
+    /* styling the h1 for contact page */
     .contact-background h1,
     .about-background h1 {
         text-align: center;
         margin: auto;
     }
 
-     .delivery-img {
+    /* giving the image a grid area and styling */
+    .delivery-img {
         grid-area: three;
         margin-top: 0;
         padding: 20px;
         padding-bottom: 65px;
         height: 86%;
         border-radius: 10px;
-    } 
+    }
 
+    /* Adding a banner image to contact page as a background image */
     .contact-background {
         position: relative;
         background-image: url(../images/contact-us-banner.png);
@@ -857,6 +951,7 @@ nav ul li:current {
         padding: 200px;
     }
 
+    /* Styling the contact pages section paragraphs */
 
     .contact-info p,
     .contact-email p,
@@ -866,6 +961,7 @@ nav ul li:current {
         line-height: 30px;
     }
 
+    /* Making the contact section display as flex */
     .contact-social {
         display: flex;
         justify-content: space-evenly;
@@ -876,6 +972,7 @@ nav ul li:current {
         border-radius: 10px;
     }
 
+    /* changing font size for desktop */
     .contact {
         font-size: 2.5em;
         padding-top: 30px;
@@ -885,24 +982,29 @@ nav ul li:current {
         padding-bottom: 20px;
     }
 
+    /* CHanging form font size for desktop */
     #fullname,
     #youremail,
     #message {
         font-size: 1.2em;
     }
 
+    /* Displaying map at a 100% width */
     iframe {
         width: 100%;
     }
 
+    /* Adjusting the map */
     .location-map {
         padding: 30px 0 30px 0;
     }
 
+    /* Giving the map a background color */
     .location {
         color: #192628;
     }
 
+    /* styling the social links h3 and paragraphs to match the consistenct and balance */
     .social-link h3 {
         font-size: 1.2em;
 
