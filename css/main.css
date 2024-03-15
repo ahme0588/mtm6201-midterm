@@ -701,14 +701,16 @@ iframe {
         background-repeat: no-repeat;
         background-size: contain;
         max-width: 100%;
+      
     }
+
 
     /* Styling the h1 of the site and header of the website */
     h1 {
-        font-size: 3em;
+        font-size: 3.5vw;
         color: white;
-        margin: 10px 230px 0 230px;
-        line-height: 75px;
+        margin: 35px 200px 0 200px;
+        line-height: 70px;
 
     }
 
@@ -720,6 +722,7 @@ iframe {
     }
 
     .welcome-paragraph {
+        font-size: 2vw;
         color: white;
     }
 
