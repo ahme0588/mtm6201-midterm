@@ -2,8 +2,12 @@
 
 Attribution link:
 https://www.figma.com/community/file/893381127703378146
+https://www.figma.com/file/vaBd4cktmsOVlU7JNIWnBr/Food-delivery-app-Ui-kit-(Community)?type=design&node-id=513-21&mode=design&t=qLBLmgEpctDXwjcW-0
 
 Pages: Home Page, Contact Page, About Page are all working pages. FAQ page leads to nothing.
+
+stock images from:
+https://www.pexels.com/
 
 Animations:
 1. All Headers in all 3 have a fade in from bottom animation including the background image. 
