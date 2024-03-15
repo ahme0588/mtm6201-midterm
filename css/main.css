@@ -246,13 +246,22 @@ h2 {
 .section-one-image,
 .section-two-image {
     position: relative;
-    margin-left: 40px;
+    margin-left: 75px;
+    
 }
 
 /* Making the image centered and position relative */
 .section-three-image {
     position: relative;
-    margin-left: 30px;
+    margin-left: 70px;
+    
+}
+
+.section-one-image,
+.section-two-image,
+.section-three-image {
+    max-width: 100%; 
+    display: block; 
 }
 
 /* Styling the hr and giving it margins */
